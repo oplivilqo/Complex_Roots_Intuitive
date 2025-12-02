@@ -236,7 +236,7 @@ class RootVisualizer:
                     root_expr = f"x{i+1}={length}(cos({c}π)+sin({c}π)i)"
                 elif c not in [0.5, 1.5]:
                     if root_length == 1:
-                        length = 1
+                        length = "1"
                     if c == 1:
                         root_expr = f"x{i+1}={"-"+length}"
                     else:
